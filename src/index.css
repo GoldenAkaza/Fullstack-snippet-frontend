@@ -1,0 +1,131 @@
+/* Global Dark Theme */
+body {
+  font-family: "Inter", sans-serif;
+  background: #0d1117;
+  color: #f0f6fc; /* brighter text */
+}
+
+/* Section Containers */
+section {
+  background: #161b22;
+  border-radius: 16px;
+  padding: 22px;
+  margin-bottom: 28px;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.06),
+    0 4px 12px rgba(0, 0, 0, 0.5);
+  transition: background 0.2s ease;
+}
+
+section:hover {
+  background: #1d242f;
+}
+
+/* Headers */
+h1, h2, h4 {
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  color: #ffffff; /* stronger white for headings */
+}
+
+/* Form Elements */
+form label {
+  font-weight: 600;
+  color: #e6edf3; /* brighter labels */
+}
+
+form input,
+form textarea,
+form select {
+  border-radius: 10px !important;
+  border: 1px solid #30363d !important;
+  padding: 10px;
+  background: #0f141a !important;
+  color: #f0f6fc !important; /* brighter form text */
+}
+
+form input::placeholder,
+form textarea::placeholder {
+  color: #9ca8b5 !important; /* brighter placeholder */
+}
+
+form input:focus,
+form textarea:focus,
+form select:focus {
+  border-color: #58a6ff !important;
+  box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.4) !important;
+}
+
+/* Buttons */
+.btn-primary {
+  background: #238636 !important;
+  border: none !important;
+  padding: 10px 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  color: #ffffff !important;
+}
+
+.btn-secondary {
+  background: #30363d !important;
+  color: #ffffff !important;
+  border-radius: 10px !important;
+}
+
+.btn-success {
+  background: #2ea043 !important;
+  border: none !important;
+  border-radius: 10px !important;
+  font-weight: 600;
+  color: #ffffff !important;
+}
+
+/* Cards */
+.card {
+  background: #161b22;
+  border: 1px solid #30363d !important;
+  border-radius: 16px;
+  padding: 12px;
+  box-shadow: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.2s ease;
+  color: #f0f6fc; /*make card text bright */
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  border-color: #58a6ff !important;
+  box-shadow: 0 0 12px rgba(88, 166, 255, 0.25);
+}
+
+/* Code Blocks */
+pre {
+  white-space: pre-wrap;
+  background: #0f141a !important;
+  border: 1px solid #30363d !important;
+  border-radius: 10px;
+  padding: 14px !important;
+  font-size: 0.9rem;
+  color: #f8fafd; /*Brighter inside code */
+}
+
+/*Removes the white background on the card's code text*/
+.bg-light {
+  background-color: transparent !important;
+}
+
+/* Tags */
+.badge {
+  padding: 6px 10px;
+  font-size: 0.75rem;
+  border-radius: 8px;
+}
+
+.badge.bg-secondary {
+  background: #6e7681 !important;
+  color: #ffffff !important; /*brighter tag text */
+}
+
+/* Subtle text */
+.text-muted {
+  color: #9ba7b4 !important; /* slightly brighter muted */
+}
