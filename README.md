@@ -1,7 +1,7 @@
-# Snippets Library API (Project 2)
+# Snippets Library Frontend (Project 3)
 
 ## Live Deployment
-Live: https://fullstack-project2-snippet-api-2.onrender.com // The public URL where the live application can be accessed (from Render).
+Live: https://fullstack-snippet-frontend.onrender.com // The public URL where the live application can be accessed (from Render).
 
 ### Setup and Local Run Instructions
 <p>1. Download or Clone the project.</p>
