@@ -19,7 +19,9 @@ Server running on port 3000</p>
 
 ## Features
 <p>- Create a New Snippet – POST /api/snippets <br/>
-It accepts a JSON body with the required fields title, language, and code.
+Can add snippets by typing the required fields title, language, and code. <br/>
+There is also an option to add a description and tags to the snippets.
+
 </p>
 - Get All Snippets – GET /api/snippets
 <p>This endpoint returns all snippets stored in the database. <br/>
@@ -30,18 +32,10 @@ All returned snippets are sorted by their creation date, with the newest ones ap
 
 
 ## Reflection
-<p>Working on this backend API taught me not only how to use Express and Mongoose, but also why these tools are valuable in real-world web development.
-  Setting up the server from scratch helped me understand the core responsibilities of a backend—receiving requests, validating data, interacting with a database, and sending structured responses. 
-  I also learned how middleware such as cors() and express.json() plays a crucial role in allowing the frontend to communicate smoothly with the backend.</p>
+<p>Building this full-stack project gave me the opportunity to connect everything I’ve learned this semester into one working application. The goal of the project was to create a frontend interface that communicates with the API I previously built, while providing a simple and useful solution for storing and browsing code snippets. This project helped me understand how the frontend and backend work together through HTTP requests, how data moves between layers, and how the user interacts with that data through a graphical interface.</p>
 
-<p>One of the most insightful parts of the project was the Mongoose schema. 
-  Defining required fields like title, language, and code, and adding automatic timestamps, helped me understand more how schemas enforce structure in a flexible NoSQL database like MongoDB. 
-  I also learned the importance of transforming data for consistency—such as converting language names to lowercase for easier filtering.</p>
+<p>One of the most valuable parts of this project was working with React. Using useEffect to load data on page load made the application feel dynamic, and managing state with useState taught me how important predictable state updates are in React. I also learned how to handle form submissions, send POST requests, and update the UI immediately after saving a new snippet.</p>
 
-<p>Building the routes taught me how powerful RESTful design really is. 
-  Implementing GET, POST, and identifier-based queries showed me how backend systems deliver data efficiently and predictably. 
-  The route for filtering snippets using query parameters demonstrated how small features dramatically improve the usability of an API. 
-  Overall, this project strengthened my understanding of backend development</p>
 
 ## Video Presentation
 <h3>Timestamps</h3>
