@@ -27,12 +27,7 @@ You can filter the results by adding a lang query parameter, such as ?lang=javas
 You can also limit the number of results using ?limit=5. If no limit is provided, the API returns up to 10 snippets by default. <br/>
 All returned snippets are sorted by their creation date, with the newest ones appearing first.
 </p>
-- Get One Snippet by ID – GET /api/snippets/:id 
-<p>This endpoint retrieves a single snippet using its unique MongoDB ID. <br/>
-If the snippet exists, the server returns it with a 200 OK status. <br/>
-If no snippet is found with that ID, the server responds with a 404 Not Found message.
-</p>
-  
+
 
 ## Reflection
 <p>Working on this backend API taught me not only how to use Express and Mongoose, but also why these tools are valuable in real-world web development.
