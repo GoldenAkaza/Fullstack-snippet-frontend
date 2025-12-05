@@ -6,16 +6,14 @@ Live: https://fullstack-snippet-frontend.onrender.com // The public URL where th
 ### Setup and Local Run Instructions
 <p>1. Download or Clone the project.</p>
 <p>2. Install Dependencies.<br/>
-npm install express mongoose cors dotenv</p>
+npm install react bootstrap</p>
 <p>3. Create a .env file in the project root. <br/>
 Inside the .env file put:<br/>
-PORT=3000<br/>
-MONGODB_URI=Your own MongoDB Atlas connection string</p>
-<p>4. Start the server. <br/>
-node server.js</p>
+VITE_API_BASE=Your own backend connection string</p>
+<p>4. Run the app locally. <br/>
+npm run dev</p>
 <p>You should see:<br/>
-Connected to MongoDB<br/>
-Server running on port 3000</p>
+Local:  http://localhost:5173/</p>
 
 ## Features
 <p>- Create a New Snippet – POST /api/snippets <br/>
