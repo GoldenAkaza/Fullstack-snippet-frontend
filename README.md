@@ -38,6 +38,8 @@ All returned snippets are sorted by their creation date, with the newest ones ap
 ## Video Presentation
 <h3>Timestamps</h3>
 <p>00:00 Introduction and problem</p>
-<p>00:48 Technologies and Features</p>
-<p>01:57 Live demo: POST, GET all, GET by filtered by language and limit, GET by id</p>
-<p>04:33 Conclusion</p>
+<p>00:56 Overview</p>
+<p>02:26 Live demo: GET all, GET filtered by language and limit, Snippet creation.</p>
+<p>04:59 Conclusion</p>
+
+Video link https://go.screenpal.com/watch/cTlhlInYc2a
